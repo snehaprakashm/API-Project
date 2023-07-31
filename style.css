@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    /* background-color: #ae9cff; */
+    /* background-image: url(./images/dictionary-word-meaning-2wv5b98qrgkd7mbk.jpg); */
+    background-image: url(./images/Dictionary-Library-Background-Material-Paper-Scrapbooking-Card-Making-Journaling-Project-DIY-Craft-Retro-Writing-Paper-Cards.jpg);
+    background-size: cover;
+   
+
+}
+
+/* Media Query for Responsive */
+@media screen and (max-width: 307px) {
+    .search-box button {
+        flex-direction: column;
+    }
+
+    .search-box button input  {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+#search-btn input{
+    font-size: small;
+}
+
+.container {
+    background-color:#0f0403ef;
+    /* width: 100vmin; */
+    width:60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    padding: 70px 70px;
+    border-radius: 7px;
+    /* box-shadow: 0 20px 40px rgba(13, 13, 14, 0.637); */
+    box-shadow: inset  -2px  -5px 7px #b8afaf, inset 5px 3px 8px rgba(66, 14, 87, 0.2);
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input {
+    padding: 4px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #5711116c;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search-box button {
+    padding: 10px 0;
+    width: 20%;
+    background-color: #4b1714dc;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 50px;
+    color: #e9dfdf;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.result button {
+    background-color: transparent;
+    color: #e7dcdc;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #d4d4da;
+    margin: 2px 0 15px 0;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.word-meaning {
+    color: #efeff8;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.word-example {
+    color: #dddee9;
+    font-style: italic;
+    border-left: 5px solid #0ea0a5;
+    padding-left: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(221, 208, 208);
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+   
+    
+}
+.div1{
+    border-radius: 5px;
+    background-color: #d4d5e296;
+}
+/* .res{
+      top:50%;
+    left:50%;
+} */
