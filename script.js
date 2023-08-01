@@ -12,7 +12,7 @@ btn.addEventListener("click", () => {
             console.log(data);
             result.innerHTML = `
             <div class="word">
-                    <h3>${enterWord}</h3>
+                    <h2>${enterWord}</h2>
                    
                 </div>
                 

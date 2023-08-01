@@ -15,7 +15,7 @@ body {
 
 }
 
-/* Media Query for Responsive */
+/* Media Query for Responsive
 @media screen and (max-width: 307px) {
     .search-box button {
         flex-direction: column;
@@ -25,7 +25,7 @@ body {
         text-align: center;
         margin-bottom: 1rem;
     }
-}
+} */
 #search-btn input{
     font-size: small;
 }
@@ -38,7 +38,7 @@ body {
     transform: translate(-50%, -50%);
     top:50%;
     left: 50%;
-    padding: 70px 70px;
+    padding: 90px 70px;
     border-radius: 7px;
     /* box-shadow: 0 20px 40px rgba(13, 13, 14, 0.637); */
     box-shadow: inset  -2px  -5px 7px #b8afaf, inset 5px 3px 8px rgba(66, 14, 87, 0.2);
@@ -58,7 +58,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search-box button {
-    padding: 10px 0;
+    padding: 7px 0;
     width: 20%;
     background-color: #4b1714dc;
     border: none;
@@ -70,8 +70,8 @@ body {
 .result {
     position: relative;
 }
-.result h3 {
-    font-size: 50px;
+.result h2 {
+    font-size: 30px;
     color: #e9dfdf;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -90,7 +90,8 @@ body {
 }
 .result .details {
     display: flex;
-    gap: 10px;
+    gap: 7px;
+    
     color: #d4d4da;
     margin: 2px 0 15px 0;
     font-size: 14px;
@@ -98,7 +99,7 @@ body {
 }
 .word-meaning {
     color: #efeff8;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .word-example {
